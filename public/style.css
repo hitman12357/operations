@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+.container .filter {
+    width: 20%;
+}
+.container .result {
+    width: 80%;
+}
+.container .result .table
+{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.container .result .table th,
+.container .result .table td
+{
+    width: 25%;
+    border: 1px solid #ccc;
+}
+
+
+.container .filter .filter-row {
+    padding: 10px;
+}

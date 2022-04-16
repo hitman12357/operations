@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Href Attribute Example</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="filter">
+      <div class="filter-row local">
+        <select name="local" id="local">
+          <option value="-">nie wybrany</option>
+        </select>
+        <label for="local">local</label>
+      </div>
+
+      <div class="filter-row from">
+        <input type="date" id="from">
+        <label for="from">od</label>
+      </div>
+
+      <div class="filter-row to">
+        <input type="date" id="to">
+        <label for="to">do</label>
+      </div>
+
+      <div class="filter-row button">
+        <button type="button" id="apply">Potwierdzać</button>
+      </div>
+    </div>
+    <div class="result">
+      <div class="table">
+        <table>
+          <thead>
+          <tr>
+            <th>Nazwa</th>
+            <th>Data</th>
+            <th>Godzina</th>
+            <th>Użytkownik</th>
+            <th>Local</th>
+          </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
